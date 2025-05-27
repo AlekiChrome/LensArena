@@ -31,6 +31,27 @@
 
 ---
 
+
+---
+
+## 🧪 Future Enhancements
+
+- 🔔 Notification system (comment replies, likes)
+- 🧑‍🤝‍🧑 Follow other photographers
+- 🌟 Featured contests and creators on the homepage
+- 📥 Contest scraper/API integration for real-time listings
+- Filter age-appropriate contests and contest categories
+
+---
+
+## 🧑‍💻 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/lensarena.git
+   cd lensarena
+
+
 ## 📁 Folder Structure (Simplified)
 
 
