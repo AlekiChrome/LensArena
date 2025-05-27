@@ -1,0 +1,49 @@
+:root {
+  --font-main: 'Helvetica Neue', sans-serif;
+  --color-bg: #fafafa;
+  --color-dark: #111;
+  --color-accent: #f46a6a;
+  --color-light: #fff;
+  --color-muted: #999;
+  --border-radius: 8px;
+  --box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #d44d4d;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+
+form {
+  margin-bottom: 1.5rem;
+}
